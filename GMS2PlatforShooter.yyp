@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06164ede-3bdf-46f3-af9c-0698aed2b127",
+            "Value": {
+                "id": "f894fec7-b758-4966-97a6-862338641b06",
+                "resourcePath": "scripts\\move\\move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "084ced08-408a-4103-bf1f-871e27eec33a",
             "Value": {
                 "id": "ef14cda7-a952-4cc9-99dc-11144120b1d0",
@@ -52,6 +60,14 @@
                 "id": "cc7e565b-62a2-471c-a64f-2870854e11c0",
                 "resourcePath": "views\\290e6572-2c47-4c5c-aa2e-76b99dc852b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "295be614-b670-425c-bd7c-67b59c5d1248",
+            "Value": {
+                "id": "b89281b1-7a6b-4eb1-a7b0-4da1b2dd1641",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,11 +215,27 @@
             }
         },
         {
+            "Key": "d4f8ebf0-0de4-4949-b856-942ba2b35994",
+            "Value": {
+                "id": "2ce023db-a129-4677-83ea-8cfd04d042dd",
+                "resourcePath": "scripts\\move_push\\move_push.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d6511da2-c015-4d66-9962-59abeac9eba5",
             "Value": {
                 "id": "0d2cce7b-0bad-4d0d-8129-4688af728280",
                 "resourcePath": "views\\d6511da2-c015-4d66-9962-59abeac9eba5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3880336-3602-4d56-acd4-a3e211acf4d3",
+            "Value": {
+                "id": "cd04285c-0e9d-4d6f-bfc5-ce5382f578aa",
+                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -248,7 +280,8 @@
         }
     ],
     "script_order": [
-        
+        "06164ede-3bdf-46f3-af9c-0698aed2b127",
+        "d4f8ebf0-0de4-4949-b856-942ba2b35994"
     ],
     "tutorial": ""
 }
