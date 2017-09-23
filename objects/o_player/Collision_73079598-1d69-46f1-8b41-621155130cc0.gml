@@ -1,3 +1,3 @@
 /// @description Take Damage
-health -= 1;
+health_ -= 1;
 instance_destroy(other);

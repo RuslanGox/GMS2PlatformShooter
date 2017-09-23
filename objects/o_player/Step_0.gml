@@ -7,23 +7,23 @@ if health_ <= 0 {
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if hinput != 0 {
-	hspeed_ += hinput * acceleration_;
-	hspeed_ = clamp(hspeed_, -max_hspeed_, max_hspeed_);
+	speed_[h] += hinput * acceleration_;
+	speed_[h] = clamp(speed_[h], -max_speed_, max_speed_);
 } else {
-	hspeed_ = lerp(hspeed_, 0, friction_);
+	speed_[h] = lerp(speed_[h], 0, friction_);
 }
 
 if !place_meeting(x, y+1, o_solid){
-	vspeed_ += gravity_;
+	speed_[v] += gravity_;
 } else {
 	if keyboard_check(vk_up){
-		vspeed_ = jump_height_;
+		speed_[v] = jump_height_;
 		x_scale_ = image_xscale * .8;
 		y_scale_ = image_yscale * 1.4;
 	}
 }
 
-move();
+move(speed_);
 
 // Check for landing
 if place_meeting(x, y+1, o_solid) && !place_meeting(x, yprevious+1, o_solid){
