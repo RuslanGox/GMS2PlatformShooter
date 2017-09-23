@@ -1,4 +1,9 @@
 /// @description Player Movement
+// Check for death
+if health_ <= 0 {
+	instance_destroy();
+}
+
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if hinput != 0 {

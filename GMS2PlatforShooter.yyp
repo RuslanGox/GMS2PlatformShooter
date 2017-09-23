@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "0bcee645-fcd5-4372-b546-f154efd18a0d",
+            "Value": {
+                "id": "8779a078-8ad9-47ba-825a-036aa3378bac",
+                "resourcePath": "objects\\o_enemy_bullet\\o_enemy_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "100b95a6-2c0e-4143-a302-086f595693d8",
+            "Value": {
+                "id": "c24acc3e-9cfc-4f1e-8964-51a70ff93511",
+                "resourcePath": "sprites\\s_enemy_bullet\\s_enemy_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "290e6572-2c47-4c5c-aa2e-76b99dc852b6",
             "Value": {
                 "id": "cc7e565b-62a2-471c-a64f-2870854e11c0",

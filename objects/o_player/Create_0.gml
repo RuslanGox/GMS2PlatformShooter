@@ -6,6 +6,7 @@ gravity_ = .5;
 acceleration_ =1;
 friction_ = .3;
 jump_height_ = -10;
+health_ = 5;
 
 // Map the keys
 keyboard_set_map(ord("D"),vk_right);
